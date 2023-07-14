@@ -49,12 +49,24 @@ h1, h2, h3, h4, p {
     margin-top: 0;
 }
 
-#gift-img-cheers {
+#gift-img-treat {
     height:480px;
     width: 272px;
 }
+#gift-img-energy {
+    height:289px;
+    width:500px;
+}
 #gift-img-awesome {
     height: 200px;
+}
+#gift-img-sleep {
+    height: 320px;
+    width: 320px;
+}
+#gift-img-dance {
+    height: 240px;
+    width: 300px;
 }
 .gift-img {
     margin: 20px auto;
@@ -66,8 +78,8 @@ h1, h2, h3, h4, p {
     background-size: cover;
 }
 
-#gift-img-happy:hover {
-    background-image: url("images/excited.gif");
+#gift-img-energy:hover {
+    background-image: url("images/energy.gif");
 }
 
 #gift-img-dance:hover {
@@ -79,11 +91,11 @@ h1, h2, h3, h4, p {
 
 }
 
-#gift-img-badass:hover {
+#gift-img-sleep:hover {
     background-image: url("images/sleep.gif");
 }
 
-#gift-img-cheers:hover {
+#gift-img-treat:hover {
     background-image: url("images/treat.gif");
 }
 
